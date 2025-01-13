@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+string carros [5]= {"BMW", "Fiat", "Ford", "Toyota", "Mercedes"};
+
+
+int main() {
+ int numeros = rand() % 5;
+    string y;
+
+        for (int i = 0; i < 3; i++){
+
+        cout<<"Tente advinhar o carro que a máquina está pensando BMW, Fiat, Ford, Toyota ou Mercedes: ";
+        cin >> y; 
+      
+      if(carros[numeros] == y){
+            cout<<" Voce acertou o carro"<<endl;
+            break;
+        
+        }else{
+           cout<<"Voce nao acertou o carro tente novamente"<<endl; 
+        
+        }
+    
+        
+}
+}
