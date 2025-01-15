@@ -21,7 +21,7 @@ int main() {
            cout<<"Voce nao acertou o carro tente novamente"<<endl; 
         
         }
-    
+           cout<< "Perdeu o jogo.Tente novamente" << ednl;
         
 }
 }
