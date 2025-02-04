@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+string Frase = {"Tu tens que atinar"};
+
+int main () {
+     
+      system("clear");
+for (char l : Frase) l!=' '? cout << "_ " : cout << "  ";
+    cout << endl;
+srand(time(0));
+
+}
